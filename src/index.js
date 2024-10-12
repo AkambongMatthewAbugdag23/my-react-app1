@@ -11,7 +11,6 @@ function FavoriteColor() {
         type="button"
         onClick={() => setColor('blue')}
       >Red</button>
-      />
     </>
   )
 }
