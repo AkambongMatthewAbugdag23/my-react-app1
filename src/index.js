@@ -1,14 +1,13 @@
-import React from 'react';
+import { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 
-const myFirstElement = <h1>Hello Matthew!</h1>
+function FavoriteColor() {
+  const [color, setColor] = useState('red');
+
+  return <h1>My favoritw color is {color}! </h1>
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(myFirstElement);
+root.render(FavoriteColor);
 
-/*
-You are now watching
-the React file 'index.js'
-through our 'Show React' tool.
-*/
 
