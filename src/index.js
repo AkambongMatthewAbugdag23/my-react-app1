@@ -8,6 +8,6 @@ function FavoriteColor() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(FavoriteColor);
+root.render(<FavoriteColor />);
 
 
